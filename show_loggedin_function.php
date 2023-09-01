@@ -1,3 +1,5 @@
+<?php
+
 function show_loggedin_function( $atts ) {
 
 global $current_user, $user_login;
@@ -10,3 +12,4 @@ return '<a href="https://domain.com/account/">Login</a>';
 
 }
 add_shortcode( 'show_loggedin_as', 'show_loggedin_function' );
+?>
